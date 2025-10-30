@@ -1,0 +1,30 @@
+{
+  "name": "cse341-ww-student-code",
+  "version": "1.0.0",
+  "description": "CSE341 project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byui-cse/cse341-ww-student-code.git"
+  },
+  "author": "Vanessa Yang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byui-cse/cse341-ww-student-code/issues"
+  },
+  "homepage": "https://github.com/byui-cse/cse341-ww-student-code#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongodb": "^6.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
